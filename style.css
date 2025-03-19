@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background-color: #051036;
     color: #fff;
 }
 .container {
@@ -12,7 +12,7 @@ body {
 header, footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #111;
+    background-color: #282aae;
 }
 nav {
     text-align: center;
