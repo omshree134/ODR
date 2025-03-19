@@ -1,47 +1,393 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODR Platform</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ODR India - Online Dispute Resolution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to ODR Platform</h1>
-            <p>Resolve disputes quickly and fairly online.</p>
-        </header>
+    <header>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <section id="home" class="section">
-            <h2>Efficient Online Dispute Resolution</h2>
-            <p>We offer mediation, arbitration, and Lok Adalat services online.</p>
-        </section>
-        <section id="services" class="section">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Mediation</li>
-                <li>Arbitration</li>
-                <li>Lok Adalat</li>
+            <div class="logo">
+                <h1>ODR<span>India</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Success Stories</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-        <section id="about" class="section">
-            <h2>About Us</h2>
-            <p>Our platform provides a secure and easy way to resolve disputes online.</p>
-        </section>
-        <section id="contact" class="section">
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Resolving Disputes Online, Efficiently</h1>
+            <p>India's premier platform for quick, affordable, and accessible dispute resolution</p>
+            <div class="cta-buttons">
+                <button class="primary-btn">Start a Resolution</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/api/placeholder/600/400" alt="ODR Process Illustration">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About ODR India</h2>
+            <p>Transforming dispute resolution in the digital age</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>ODR India is at the forefront of revolutionizing how disputes are resolved in our country. By leveraging technology, we make justice accessible to all citizens regardless of location, status, or complexity of issues.</p>
+                <p>Our platform is built on the principles of fairness, transparency, efficiency, and inclusivity, aligning with India's vision for digital transformation in the legal domain.</p>
+            </div>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h3>95%</h3>
+                    <p>Resolution Rate</p>
+                </div>
+                <div class="stat-box">
+                    <h3>14 Days</h3>
+                    <p>Average Time to Resolution</p>
+                </div>
+                <div class="stat-box">
+                    <h3>80%</h3>
+                    <p>Cost Reduction</p>
+                </div>
+                <div class="stat-box">
+                    <h3>10K+</h3>
+                    <p>Cases Resolved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>Tailored solutions for diverse dispute types</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Mediation</h3>
+                <p>Facilitated negotiation with neutral third-party mediators to help parties reach mutually acceptable agreements.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-gavel"></i>
+                <h3>Arbitration</h3>
+                <p>Formal process where an independent arbitrator reviews evidence and makes a binding decision to resolve the dispute.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-comments"></i>
+                <h3>Negotiation</h3>
+                <p>Structured platform for direct communication between parties to work toward a resolution collaboratively.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-balance-scale"></i>
+                <h3>Early Neutral Evaluation</h3>
+                <p>Expert assessment of case strengths and weaknesses with guidance on potential outcomes and settlement options.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-users"></i>
+                <h3>Consumer Disputes</h3>
+                <p>Specialized resolution process for consumer complaints against businesses and service providers.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Commercial Disputes</h3>
+                <p>Tailored solutions for business-to-business conflicts including contract disputes and partnership disagreements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="process">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <p>Simple, transparent, and effective</p>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Register Your Case</h3>
+                    <p>Create an account and submit your dispute details through our secure portal.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Choose Resolution Method</h3>
+                    <p>Select the appropriate dispute resolution process based on your needs and case type.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Document Submission</h3>
+                    <p>Upload relevant documents and evidence to support your position.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Resolution Process</h3>
+                    <p>Engage in the selected process with the other party and neutral facilitators through our platform.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h3>Settlement & Closure</h3>
+                    <p>Finalize agreements with legally binding digital signatures and implementation plan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <h2>Success Stories</h2>
+            <p>Real results from satisfied users</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <div class="quote">
+                    <p>"ODR India helped resolve our property dispute in just 3 weeks, saving us countless hours in court and significant legal fees. The process was transparent and fair."</p>
+                </div>
+                <div class="author">
+                    <img src="/api/placeholder/60/60" alt="Testimonial Author">
+                    <div class="author-info">
+                        <h4>Rajesh Mehta</h4>
+                        <p>Delhi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">
+                    <p>"As a small business owner, I couldn't afford lengthy litigation. The mediation service provided by ODR India helped me resolve a payment dispute efficiently while preserving business relationships."</p>
+                </div>
+                <div class="author">
+                    <img src="/api/placeholder/60/60" alt="Testimonial Author">
+                    <div class="author-info">
+                        <h4>Priya Sharma</h4>
+                        <p>Mumbai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">
+                    <p>"The consumer dispute resolution process was straightforward and effective. My complaint against an e-commerce platform was resolved in my favor within 10 days."</p>
+                </div>
+                <div class="author">
+                    <img src="/api/placeholder/60/60" alt="Testimonial Author">
+                    <div class="author-info">
+                        <h4>Akash Patel</h4>
+                        <p>Bangalore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
             <h2>Contact Us</h2>
-            <p>Email: contact@odrplatform.com</p>
-        </section>
-        <footer>
-            <p>&copy; 2025 ODR Platform. All rights reserved.</p>
-        </footer>
+            <p>We're here to answer your questions</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="general">General Inquiry</option>
+                            <option value="start-case">Start a New Case</option>
+                            <option value="support">Technical Support</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="partnership">Partnership Opportunity</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Cyber Hub, Sector 24, Gurugram, Haryana 122002</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@odrindia.com</p>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <h2>ODR<span>India</span></h2>
+                </div>
+                <p>Transform the way you resolve disputes with technology-enabled solutions that are accessible, affordable, and efficient.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#how-it-works">Process</a></li>
+                    <li><a href="#testimonials">Success Stories</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Legal Framework</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ODR India. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login to ODR India</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <div class="form-group remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+                <p class="form-footer">Don't have an account? <a href="#" id="showSignup">Sign up</a></p>
+                <p class="form-footer"><a href="#">Forgot password?</a></p>
+            </form>
+        </div>
     </div>
+
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Create an Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email Address</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPhone">Phone Number</label>
+                    <input type="tel" id="signupPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupConfirm">Confirm Password</label>
+                    <input type="password" id="signupConfirm" required>
+                </div>
+                <div class="form-group terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+                <button type="submit" class="submit-btn">Create Account</button>
+                <p class="form-footer">Already have an account? <a href="#" id="showLogin">Login</a></p>
+            </form>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
